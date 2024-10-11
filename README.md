@@ -13,13 +13,13 @@ Este bot foi desenvolvido em C PLUS PLUS utilizando a API do Telegram. Ele respo
 
 ## EXECUTANDO O PROJETO:
 1. **Configurar Token do Telegram**:
-   - Abra o arquivo `./CODIGO/config.c` e coloque sua credêncial:
+   - Abra o arquivo `./CODIGO/config.cpp` e coloque sua credêncial:
      ```c
       const char* TOKEN = "YOUR_BOT_TOKEN";
      ```
    - Substitua `YOUR_BOT_TOKEN` pelo [token](https://t.me/BotFather) do seu bot do Telegram.
 
-2. **Instale as dependências e compilar**:
+2. **Instale as dependências e compile**:
    - Para instale as dependências e compilar o código, navegue até o diretório `./CODIGO` e digite o comando:
    ```bash
    make
